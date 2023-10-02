@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Noto+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --bordergrey: #848792;
+    --emptybox: #c0c0c0;
+    --inputbg: #f1f4ff;
+}
+
+body {
+    /* padding: 40px 70px; */
+    width: 794px !important;
+    margin: auto;
+}
+
+.formheader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.boxheader {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.power {
+    width: 100%;
+    height: auto;
+    gap: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--black);
+    border-right: 2px solid var(--black);
+
+}
+
+#bt {
+    border-top: 2px solid var(--black);
+    border-right: none;
+}
+
+#powerid {
+    font-size: 17px;
+    margin-top: 4px !important;
+}
+
+.header {
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.header1 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
+}
+
+.form1120 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-size: 14px;
+    color: var(--black);
+    font-weight: 400;
+}
+
+.form1120 span {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--black);
+}
+
+.form1120text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.rev {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid var(--black);
+    border-top: none;
+    border-left: none;
+    font-weight: 700;
+}
+
+.header2 h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.fori {
+    text-transform: none;
+    font-size: 12px;
+}
+
+.fori i {
+    text-transform: lowercase;
+    font-weight: 850;
+}
+
+.header3 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border-bottom: 2px solid var(--black);
+    height: 150px;
+}
+
+.namemt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+.obmNO {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--black);
+    margin-top: 5px;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+.irs {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.revivedby {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.namedetials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    width: 100%;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.namedetials input {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 114px;
+    border-bottom: 1px solid var(--black);
+    /* margin-right: 15px; */
+}
+
+.sw {
+    width: 95px !important;
+}
+
+.sw2 {
+    width: 104px !important;
+}
+
+.part1 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px;
+    color: var(--white);
+    background: var(--black);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+#of {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cut {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.cut b {
+    font-weight: 900;
+}
+
+
+.taxpayer {
+    border-bottom: 2px solid var(--black);
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.taxpayer span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.identification {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid var(--black);
+}
+
+.identification1 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 2px solid var(--black);
+
+}
+
+.identification1 p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.identification1 input {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: start;
+    width: 100%;
+}
+
+.identification1 input:nth-of-type(1) {
+    height: 20px;
+}
+
+.identification1 input:nth-of-type(2) {
+    height: 40px;
+}
+
+.identification2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60px;
+}
+
+.numbers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.number2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.numbers p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.numbers input {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: start;
+    height: 20px;
+    width: 100%;
+    border-bottom: 2px solid var(--black);
+}
+
+.number2 input {
+    border-bottom: none !important;
+    height: 22px;
+}
+
+#ibr {
+    border-right: 2px solid var(--black) !important;
+}
+
+#taxpre {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input:focus {
+    background: transparent !important;
+}
+
+.Representative {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid var(--black);
+}
+
+.Representativeadress {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.rephalf1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 2px solid var(--black);
+    height: 100px;
+}
+
+.rephalf1 p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.rephalf1 input {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: start;
+    width: 100%;
+}
+
+.rephalf1 input:nth-of-type(1) {
+    height: 20px;
+}
+
+.rephalf1 input:nth-of-type(2) {
+    height: 40px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+input[type="checkbox"] {
+    background-color: var(--inputbg);
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px !important;
+    height: 15px !important;
+    cursor: pointer;
+    outline: 1px solid var(--bordergrey);
+
+}
+
+input[type=checkbox]:checked {
+    outline: 1px dashed var(--black);
+    background-color: var(--inputbg);
+    background: #ffffff url(tick.png) 2px 2px no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#bold{
+    font-weight: 700;
+}
+.caf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.innercaf {
+    align-self: center;
+    width: 60%;
+    overflow: hidden;
+}
+
+.over {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.over input {
+    width: 100%;
+    border-bottom: 2px dashed var(--black) !important;
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+}
+
+.check2 {
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.check2 input {
+    margin-left: 4px !important;
+}
+
+#preS {
+    font-size: 12px;
+}
+
+.nameCor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid var(--black);
+}
+
+.nameCor1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid var(--black);
+}
+
+.nameCor3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid var(--black);
+    border-right: 1px solid var(--black);
+}
+
+.namei {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    /* padding-top: 10px; */
+    border-bottom: 1px solid var(--black);
+}
+
+.nameInput {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nameInput input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--inputbg);
+    font-weight: 500;
+    height: 40px;
+    border-bottom: 1px solid var(--black);
+
+}
+
+.nameInput input[type=text]:focus {
+    background: transparent;
+}
+
+#corenone {
+    border-right: none !important;
+}
+
+.namei pre {
+    margin-top: 2px;
+}
+
+.onepice {
+    width: 150px !important;
+    border: none;
+    outline: none;
+    background: var(--inputbg);
+    font-weight: 500;
+    height: 20px;
+}
+
+.onlyinput {
+    width: 93%;
+    height: auto;
+    display: flex;
+    align-self: flex-end;
+}
+
+.onlyinput input {
+    width: 100% !important;
+    border: none;
+    outline: none;
+    background: var(--inputbg);
+    font-weight: 500;
+    height: 20px;
+    border-bottom: 1px solid var(--black);
+}
+
+#mt {
+    margin-top: 20px;
+    /* width: 60% !important; */
+}
+
+.onlyinput1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 65px;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 10px;
+}
+
+.onlyinput1 input[type="text"] {
+    width: 470px;
+    border: none;
+    outline: none;
+    background: var(--inputbg);
+    font-weight: 500;
+    height: 20px;
+    border-bottom: 1px solid var(--black);
+}
+
+.firstPAgeEnd {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.privcy {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.cal {
+    font-size: 12px;
+}
+
+.form2484 {
+    font-size: 14px;
+}
+
+.form2484 span {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.secPAgeEnd {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 2px solid var(--black);
+}
+
+#bn {
+    border-bottom: none;
+}
+
+input[data-name="extra"] {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 230px;
+    border-bottom: 1px dashed var(--black);
+}
+
+input[data-name="extra1"] {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 92%;
+    border-bottom: 1px dashed var(--black);
+}
+
+#must {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+#bb {
+    border-bottom: 2px solid var(--black);
+}
+
+.signature {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    /* margin-top: 20px; */
+}
+
+.signature1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signature2 {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signature3 {
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signature1 input[data-name="sin"] {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px dashed var(--black);
+    text-align: start;
+}
+
+.sin {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px dashed var(--black);
+    text-align: start;
+}
+
+input[data-name="sInput"] {
+    height: 20px;
+    margin-top: 20px;
+}
+
+.signature1 input[data-name="sin1"] {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px dashed var(--black);
+    height: 40px;
+    text-align: start;
+}
+
+.signature2 input[data-name="sin"] {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px dashed var(--black);
+    text-align: start;
+}
+
+.signature3 input[data-name="sin"] {
+    background: var(--inputbg);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    border-bottom: 1px dashed var(--black);
+    height: 40px;
+    text-align: start;
+}
+
+.signature1,
+.signature2,
+.signature3 p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.under {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#ulmr {
+    margin-left: 15px;
+}
+
+ul li {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#olml {
+    margin-left: 25px;
+}
+
+ol li {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ol[type="a"] li::marker {
+    font-weight: 600;
+}
+
+.down {
+    width: 15% !important;
+}
+
+.down1 {
+    width: 20% !important;
+}
+
+.down2 {
+    width: 35% !important;
+}
+
+#br {
+    border-right: none;
+}
+
+#center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+input[data-name="disabled"] {
+    background: transparent !important;
+    pointer-events: none !important;
+}
+
+.endpage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nheight {
+    height: 65px;
+}
